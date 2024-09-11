@@ -1,0 +1,35 @@
+[
+  {
+    "title": "Drink Shop App",
+    "imageSrc": "projects/DrinkShop.jpg",
+    "description": "Create product selling app using react native",
+    "skills": [
+      "React Native",
+      "Node",
+      "Tailwind"
+    ],
+    "demo": "",
+    "source": "https://github.com/NHThang2k3/DrinkShop"
+  },
+  {
+    "title": "Store Management",
+    "imageSrc": "projects/xiaoxiao.png",
+    "description": "Store management application, using Oracle database and Winform C#",
+    "skills": [
+      "Winform C#",
+      "Oracle Database"
+    ],
+    "demo": "https://youtu.be/DzcK7AJtYQE",
+    "source": "https://github.com/NHThang2k3"
+  },
+  {
+    "title": "My Portfolio",
+    "imageSrc": "projects/portfolio.png",
+    "description": "Use reactJS to create portfolio page",
+    "skills": [
+      "ReactJS"
+    ],
+    "demo": "",
+    "source": "https://github.com/NHThang2k3/portfolio"
+  }
+]

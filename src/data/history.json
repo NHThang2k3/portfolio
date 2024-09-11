@@ -1,0 +1,22 @@
+[
+  {
+    "role": "Database",
+    "organisation": "",
+    "startDate": "",
+    "endDate": "",
+    "experiences": [
+      "1+ year of learning and using Oracle database and SQL server"
+    ],
+    "imageSrc": "history/google.png"
+  },
+  {
+    "role": "Mobile App",
+    "organisation": "",
+    "startDate": "",
+    "endDate": "",
+    "experiences": [
+      "Use React native to create simple app"
+    ],
+    "imageSrc": "history/google.png"
+  }
+]
