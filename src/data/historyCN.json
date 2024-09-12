@@ -1,0 +1,42 @@
+[
+  {
+    "role": "数据库",
+    "organisation": "",
+    "startDate": "",
+    "endDate": "",
+    "experiences": [
+      "超过 1 年的 Oracle 数据库和 SQL Server 学习与使用经验"
+    ],
+    "imageSrc": "history/google.png"
+  },
+  {
+    "role": "网页开发",
+    "organisation": "",
+    "startDate": "",
+    "endDate": "",
+    "experiences": [
+      "超过 1 年的 ReactJS 和 NodeJS 学习与使用经验，用于创建网页"
+    ],
+    "imageSrc": "history/google.png"
+  },
+  {
+    "role": "移动应用程序",
+    "organisation": "",
+    "startDate": "",
+    "endDate": "",
+    "experiences": [
+      "使用 React Native 创建一个美丽的应用程序"
+    ],
+    "imageSrc": "history/google.png"
+  },
+  {
+    "role": "计算机能力",
+    "organisation": "",
+    "startDate": "",
+    "endDate": "",
+    "experiences": [
+      "熟练使用 Word、Excel 和 PPT 进行工作"
+    ],
+    "imageSrc": "history/google.png"
+  }
+]

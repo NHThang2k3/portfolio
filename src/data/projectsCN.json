@@ -1,0 +1,35 @@
+[
+  {
+    "title": "饮料店应用程序",
+    "imageSrc": "projects/DrinkShop.jpg",
+    "description": "使用 React Native 创建产品销售应用程序",
+    "skills": [
+      "React Native",
+      "Node",
+      "Tailwind"
+    ],
+    "demo": "",
+    "source": "https://github.com/NHThang2k3/DrinkShop"
+  },
+  {
+    "title": "店铺管理",
+    "imageSrc": "projects/xiaoxiao.png",
+    "description": "店铺管理应用程序，使用 Oracle 数据库和 Winform C#",
+    "skills": [
+      "Winform C#",
+      "Oracle Database"
+    ],
+    "demo": "https://youtu.be/DzcK7AJtYQE",
+    "source": "https://github.com/NHThang2k3"
+  },
+  {
+    "title": "简历",
+    "imageSrc": "projects/portfolio.png",
+    "description": "使用 ReactJS 创建一个简历页面",
+    "skills": [
+      "ReactJS"
+    ],
+    "demo": "",
+    "source": "https://github.com/NHThang2k3/portfolio"
+  }
+]

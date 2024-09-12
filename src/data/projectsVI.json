@@ -1,0 +1,35 @@
+[
+  {
+    "title": "Drink Shop App",
+    "imageSrc": "projects/DrinkShop.jpg",
+    "description": "Ứng dụng để người dùng có thể đặt mua sản phẩm, có các chức năng như: thêm vào giỏ hàng, thêm vào yêu thích, thanh toán",
+    "skills": [
+      "React Native",
+      "Node",
+      "Tailwind"
+    ],
+    "demo": "",
+    "source": "https://github.com/NHThang2k3/DrinkShop"
+  },
+  {
+    "title": "Store Management",
+    "imageSrc": "projects/xiaoxiao.png",
+    "description": "Ứng dụng quản lí nhân viên, sản phẩm, giúp thu ngân thanh toán đơn hàng cho khách hàng",
+    "skills": [
+      "Winform C#",
+      "Oracle Database"
+    ],
+    "demo": "https://youtu.be/DzcK7AJtYQE",
+    "source": "https://github.com/NHThang2k3"
+  },
+  {
+    "title": "My Portfolio",
+    "imageSrc": "projects/portfolio.png",
+    "description": "Trang giới thiệu bản thân",
+    "skills": [
+      "ReactJS"
+    ],
+    "demo": "",
+    "source": "https://github.com/NHThang2k3/portfolio"
+  }
+]

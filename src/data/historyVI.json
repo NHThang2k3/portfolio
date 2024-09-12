@@ -1,0 +1,42 @@
+[
+  {
+    "role": "Cơ sở dữ liệu",
+    "organisation": "",
+    "startDate": "",
+    "endDate": "",
+    "experiences": [
+      "Có hơn 1 năm kinh nghiệm học tập và sử dụng Oracle và SQL server để làm đồ án"
+    ],
+    "imageSrc": "history/google.png"
+  },
+  {
+    "role": "Lập trình web",
+    "organisation": "",
+    "startDate": "",
+    "endDate": "",
+    "experiences": [
+      "Có hơn 1 năm kinh nghiệm học tập và sử dụng ReactJS, HTML, Tailwind CSS, NodeJS để tạo ra trang web"
+    ],
+    "imageSrc": "history/google.png"
+  },
+  {
+    "role": "Lập trình Mobile",
+    "organisation": "",
+    "startDate": "",
+    "endDate": "",
+    "experiences": [
+      "Sử dụng React Native, Expo để demo ứng dụng chạy được trên 2 hệ điều hành IOS và Android"
+    ],
+    "imageSrc": "history/google.png"
+  },
+  {
+    "role": "Tin học văn phòng",
+    "organisation": "",
+    "startDate": "",
+    "endDate": "",
+    "experiences": [
+      "Thành thạo sử dụng các phần mềm văn phòng như Word, Excel, PPT"
+    ],
+    "imageSrc": "history/google.png"
+  }
+]

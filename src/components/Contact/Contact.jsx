@@ -1,12 +1,15 @@
 
 import styles from "./Contact.module.css";
 import { getImageUrl } from "../../utils";
+import { useTranslation } from 'react-i18next';
+
 
 export const Contact = () => {
+  const { t } = useTranslation();
   return (
     <footer id="contact" className={styles.container}>
       <div className={styles.text}>
-        <h2>Contact</h2>
+        <h2>{t('contact')}</h2>
         {/* <p>Feel free to reach out!</p> */}
       </div>
       <ul className={styles.links}>

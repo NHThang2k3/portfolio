@@ -1,11 +1,14 @@
 
 import styles from "./About.module.css";
 import { getImageUrl } from "../../utils";
+import { useTranslation } from 'react-i18next';
+
 
 export const About = () => {
+  const { t } = useTranslation();
   return (
     <section className={styles.container} id="about">
-      <h2 className={styles.title}>About</h2>
+      <h2 className={styles.title}>{t('about')}</h2>
       <div className={styles.content}>
         <img
           src={getImageUrl("about/about.png")}
@@ -16,35 +19,35 @@ export const About = () => {
           <li className={styles.aboutItem}>
             <img width="100" height="100" src={getImageUrl("about/target.png")} alt="target icon" />
             <div className={styles.aboutItemText}>
-              <h3>Fullstack Developer</h3>
+              <h3>{t('target')}</h3>
               <p>
-              Having the background of
-              <b> Information System</b>
-              , I am definitely seeking to job and experience that assist me in learning and working related to my major       
+              {t('before_IS')}
+              <b>{t('Information System')}</b>
+              {t('after_IS')}       
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img width="100" height="100" src={getImageUrl("about/graduation-hat.png")} alt="graduation icon" />
             <div className={styles.aboutItemText}>
-              <h3>Education</h3>
+              <h3>{t('education')}</h3>
               <p>
-                HCMUS (Ho Chi Minh University of Science)
+                {t('school')}
                 <br/>
-                Major: Information System
+                {t('major')}: {t('Information System')}
                 <br />
-                GPA:  3,44/4
+                {t('GPA')}: 3,44/4
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img width="100" height="100" src={getImageUrl("about/translation.png")} alt="languge icon" />
             <div className={styles.aboutItemText}>
-              <h3>Languages</h3>
+              <h3>{t('languages')}</h3>
               <p>
-                English: TOIEC 675 (Listening + Reading) (7/2024)
+                {t('languages_english')}
                 <br />
-                Chinese: HSK5
+                {t('languages_chinese')}
               </p>
             </div>
           </li>

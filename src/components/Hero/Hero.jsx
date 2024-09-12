@@ -1,22 +1,25 @@
-
+import React from 'react';
 import styles from "./Hero.module.css";
 import { getImageUrl } from "../../utils";
 import CV from "../../../assets/hero/CV.pdf"
+import { useTranslation } from 'react-i18next';
+// import './i18n'; // Nhúng cấu hình i18next
 
 export const Hero = () => {
+  const { t } = useTranslation();
   return (
     <section className={styles.container}>
       <div className={styles.content}>
         <h1 className={styles.title}>
-          Hi, I'm 
+          {t('hi')}
           <br />
-          Nguyen Huu Thang
+          {t('name')}
         </h1>
         <p className={styles.description}>
-          I'm a Frontend React Native developer!
+          {t('bio')}
         </p>
         <a href={CV} download="" className={styles.contactBtn}>
-          Download CV
+          {t('download')}
         </a>
       </div>
       <img

@@ -2,14 +2,20 @@ import { useState } from "react";
 
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
+import { LanguageSelector } from "../LanguageSelector/LanguageSelector";
+import { useTranslation } from 'react-i18next';
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const { t } = useTranslation();
+  const handleOnClick = () => {
+    setMenuOpen(false)
+  }
 
   return (
     <nav className={styles.navbar}>
       <a className={styles.title} href="#">
-        Portfolio
+        {t('portfolio')}
       </a>
       <div className={styles.menu}>
         <img
@@ -24,19 +30,22 @@ export const Navbar = () => {
         />
         <ul
           className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
-          onClick={() => setMenuOpen(false)}
+          // onClick={handleOnClick}
         >
-          <li>
-            <a href="#about">About</a>
+          <li onClick={handleOnClick}>
+            <a href="#about">{t('about')}</a>
+          </li>
+          <li onClick={handleOnClick}>
+            <a href="#experience">{t('experience')}</a>
+          </li>
+          <li onClick={handleOnClick}>
+            <a href="#projects">{t('projects')}</a>
+          </li>
+          <li onClick={handleOnClick}>
+            <a href="#contact">{t('contact')}</a>
           </li>
           <li>
-            <a href="#experience">Experience</a>
-          </li>
-          <li>
-            <a href="#projects">Projects</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
+            <LanguageSelector />
           </li>
         </ul>
       </div>

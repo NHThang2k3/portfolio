@@ -7,6 +7,7 @@ import { Navbar } from "./components/Navbar/Navbar";
 import { Projects } from "./components/Projects/Projects";
 
 function App() {
+
   return (
     <div className={styles.App}>
       <Navbar />
