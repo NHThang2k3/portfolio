@@ -22,11 +22,10 @@ export const Hero = () => {
           {t('download')}
         </a>
       </div>
-      <img
-        src={getImageUrl("hero/avatar.jpg")}
-        alt="avatar"
-        className={styles.heroImg}
-      />
+        <div className={styles.image}>
+          <img src={getImageUrl("hero/t4.gif")} alt="border" className={styles.heroImg} />
+          <img src={getImageUrl("hero/avatar.jpg")} alt="avatar" className={styles.heroImg2} />
+        </div>
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />
     </section>

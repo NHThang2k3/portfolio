@@ -6,3 +6,28 @@
   height: 100%;
   overflow: hidden;
 }
+
+.fullContainer{
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100vw; 
+  height: 100vh; 
+  overflow: hidden; 
+  z-index: 2; 
+}
+
+.active{
+  z-index: 3;
+}
+
+.fullImage{
+  position: absolute; 
+  top: 50%; 
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  transform: translate(-50%, -50%); 
+ 
+}

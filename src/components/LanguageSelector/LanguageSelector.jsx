@@ -1,16 +1,21 @@
 
-// import React from 'react';
+import { useState } from "react";
 import { useTranslation } from 'react-i18next';
 import styles from "./LanguageSelector.module.css";
+import { getImageUrl } from "../../utils";
 
 
-export const LanguageSelector = () => {
+export const LanguageSelector = ({handleChangePage}) => {
   const { i18n } = useTranslation();
   const { t } = useTranslation();
 
 
   const handleChange = (event) => {
-    i18n.changeLanguage(event.target.value);
+    handleChangePage()
+    setTimeout(() => {
+      i18n.changeLanguage(event.target.value);
+    }, 2500);
+    // i18n.changeLanguage(event.target.value);
   };
 
   return (

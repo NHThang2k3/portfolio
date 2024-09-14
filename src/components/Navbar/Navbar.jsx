@@ -5,7 +5,9 @@ import { getImageUrl } from "../../utils";
 import { LanguageSelector } from "../LanguageSelector/LanguageSelector";
 import { useTranslation } from 'react-i18next';
 
-export const Navbar = () => {
+export const Navbar = (
+  { handleChangePage }
+) => {
   const [menuOpen, setMenuOpen] = useState(false);
   const { t } = useTranslation();
   const handleOnClick = () => {
@@ -14,7 +16,7 @@ export const Navbar = () => {
 
   return (
     <nav className={styles.navbar}>
-      <a className={styles.title} href="#">
+      <a className={styles.title} href="#" >
         {t('portfolio')}
       </a>
       <div className={styles.menu}>
@@ -45,7 +47,7 @@ export const Navbar = () => {
             <a href="#contact">{t('contact')}</a>
           </li>
           <li>
-            <LanguageSelector />
+            <LanguageSelector handleChangePage={handleChangePage}/>
           </li>
         </ul>
       </div>
